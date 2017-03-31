@@ -1,10 +1,10 @@
 # windows交互设计
 > 一个伟大的应用应该是简单并且具有力量的，具体包含以下几点
 
-* Enabling. The application satisfies the needs of its target users, enabling them to perform tasks that they couldn't otherwise do and achieve their goals effectively.
-* Efficient. The application enables users to perform tasks with a level of productivity and scale that wasn't possible before.
-* Versatile. The application enables users to perform a wide range of tasks effectively in a variety of circumstances.
-* Direct. The application feels like it is directly helping users achieve their goals, instead of getting in the way or requiring unnecessary steps. Features like shortcuts, keyboard access, and macros improve the sense of directness.
-* Flexible. The application allows users complete, fine-grained control over their work.
-* Integrated. The application is well integrated with Microsoft Windows, allowing it to share data with other applications.
-* Advanced. The application has extraordinary, innovative, state-of-the-art features that are not found in competing solutions.
+* 可用性. 产品用来满足目标用户的需求, 使他们能够执行他们无法做到的任务，有效的实现目标；
+* 有效性. 从规模和效率两个层面提高用户的生产效率；
+* 多兼容，多层面. 能够使用户在多种情况下，多种环境中有效的执行任务；
+* 直接性. 直接帮助用户实现目标，不绕不偏. 快捷键、键盘访问，诸如此类；
+* 灵活性. 允许用户在使用过程中完整、细粒度的控制
+* 集成并整体统一. 产品能够无缝衔接于所承载应用的介质，产品与介质融为一体
+* 先进性.产品拥有非凡的、积极地、先进的竞争对手没有的特性 
