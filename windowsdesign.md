@@ -1,6 +1,5 @@
 # 产品的力量和简约
-> 一个伟大的应用应该是简单并且具有力量的，具体包含以下几点
-
+> 一个伟大的应用应该是简单并且具有力量的，具体包含以下几点：
 * 可用性. 产品用来满足目标用户的需求, 使他们能够执行他们无法做到的任务，有效的实现目标；
 * 有效性. 从规模和效率两个层面提高用户的生产效率；
 * 多兼容，多层面. 能够使用户在多种情况下，多种环境中有效的执行任务；
@@ -16,8 +15,8 @@
 * Flexible. The application allows users complete, fine-grained control over their work.
 * Integrated. The application is well integrated with Microsoft Windows, allowing it to share data with other applications.
 * Advanced. The application has extraordinary, innovative, state-of-the-art features that are not found in competing solutions
-# 通过以下的手段去实心简单
-> 中文翻译版 
+# 通过以下的手段去实现简单
+> 实现产品相对于用户简单使用，可以通过以下手段：
 * 集合应该集合的信息； 将支撑同一个任务的功能结合在一起，使用户能够流畅线性的操作，拆解复杂的逻辑，将复杂的逻辑拆成一个个的小流程和小逻辑，一个地方可能会有多种页面呈现形式，例如：引导性内容 
 * 拆分应该拆分的信息；不是所有的东西都要展示在同一个区域，区域与区域之间应该有清晰，明显的边界，区域中应该凸显出对应的核心功能，适当的隐藏和折叠无关重要的功能，互相存在关联的信息在两个信息之间留有胡同的入口
 * 去除能被去除的信息；信息中突出呈现核心信息，若一块信息移除之后不会对整体产生影响，那就移除该模块，可做可不做，选择不做；
