@@ -22,8 +22,8 @@
 > but when there is nothing left to take away." —Antoine de Saint-Exupery
 * Determine the features your users need. Understand your users' needs through goal, scenario, and task analysis. Determine a set of features that realizes these objectives.
 * Remove unnecessary elements. Remove elements that aren't likely to be used or have preferable alternatives.
-* Remove unnecessary redundancy（冗余）. There might be several effective ways to perform a task. To achieve simplicity, make the hard decision and choose the best one for your target users instead of providing all of them and making the choice an option.
-*　Make it "just work" automatically. The element is necessary, but any user interaction to get it to work is not because there is an acceptable default behavior or configuration. To achieve simplicity, make it work automatically and either hide it from the user completely or reduce its exposure significantly.
+* Remove unnecessary redundancy（冗余）. There might be several effective ways to perform a task. To achieve simplicity, make the hard decision and choose the best one for your target users instead of providing all of them and making the choice an option. 
+* Make it "just work" automatically. The element is necessary, but any user interaction to get it to work is not because there is an acceptable default behavior or configuration. To achieve simplicity, make it work automatically and either hide it from the user completely or reduce its exposure significantly.
 ## 2、通过以下的手段去呈现力量，保持简单
 >"The ability to simplify means to eliminate the unnecessary
 > so that the necessary may speak." —Hans Hofmann
