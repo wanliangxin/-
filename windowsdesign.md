@@ -17,14 +17,14 @@
 * Advanced. The application has extraordinary, innovative, state-of-the-art features that are not found in competing solutions
 # 设计技巧
 > To obtain simplicity while maintaining power, choose the right set of features, locate the features in the right places, and reduce the effort to use them. This section gives some common techniques to achieve these goals.
-## 选择恰当的功能设置
+## 1、选择恰当的功能设置
 > "Perfection is achieved, not when there is nothing more to add,
 > but when there is nothing left to take away." —Antoine de Saint-Exupery
 * Determine the features your users need. Understand your users' needs through goal, scenario, and task analysis. Determine a set of features that realizes these objectives.
 * Remove unnecessary elements. Remove elements that aren't likely to be used or have preferable alternatives.
 * ==Remove unnecessary redundancy.== There might be several effective ways to perform a task. To achieve simplicity, make the hard decision and choose the best one for your target users instead of providing all of them and making the choice an option.
 *　Make it "just work" automatically. The element is necessary, but any user interaction to get it to work is not because there is an acceptable default behavior or configuration. To achieve simplicity, make it work automatically and either hide it from the user completely or reduce its exposure significantly.
-## 通过以下的手段去呈现力量，保持简单
+## 2、通过以下的手段去呈现力量，保持简单
 >"The ability to simplify means to eliminate the unnecessary
 > so that the necessary may speak." —Hans Hofmann
 
@@ -45,7 +45,7 @@
 * Use meaningful high-level combinations. It is often simpler and more scalable to select and manipulate groups of related elements than individual elements. Examples of high-level combinations include folders, themes, styles, and user groups. Such combinations often map to a user goal or intention that isn't apparent from the individual elements. For example, the intention behind the High Contrast Black color scheme is far more apparent than that of a black window background.
 * Select the right controls. Design elements are embodied by the controls you use to represent them, so selecting the right control is crucial to efficient presentation. For example, the font selection box used by Microsoft Word shows both a preview of the font as well as the most recently used fonts. Similarly, the way Word shows potential spelling and grammar errors in place is much simpler than the dialog box alternative, as shown in the beginning of this article.
 
-### 减少用户的努力
+### 3、减少用户的努力
 > "Simple things should be simple.
 > Complex things should be possible."—Alan Kay
 * Make tasks discoverable and visible. All tasks, but especially frequent tasks, should be readily discoverable within the user interface. The steps required to perform tasks should be visible and should not rely on memorization.
