@@ -8,6 +8,8 @@
 * 有效性. 从规模和效率两个层面提高用户的生产效率；
 * 多兼容，多层面. 能够使用户在多种情况下，多种环境中有效的执行任务；
 * 直接性. 直接帮助用户实现目标，不绕不偏. 快捷键、键盘访问，诸如此类；
+
+---
 * 灵活性. 允许用户在使用过程中完整、细粒度的控制；
 * 集成并整体统一. 产品能够无缝衔接于所承载应用的介质，产品与介质融为一体；
 * 先进性.产品拥有非凡的、积极地、先进的竞争对手没有的特性.
@@ -19,6 +21,8 @@
 * Efficient. The application enables users to perform tasks with a level of productivity and scale that wasn't possible before.
 * Versatile. The application enables users to perform a wide range of tasks effectively in a variety of circumstances.
 * Direct. The application feels like it is directly helping users achieve their goals, instead of getting in the way or requiring unnecessary steps. Features like shortcuts, keyboard access, and macros improve the sense of directness.
+
+---
 * Flexible. The application allows users complete, fine-grained control over their work.
 * Integrated. The application is well integrated with Microsoft Windows, allowing it to share data with other applications.
 * Advanced. The application has extraordinary, innovative, state-of-the-art features that are not found in competing solutions
@@ -34,6 +38,8 @@
 > "Perfection is achieved, not when there is nothing more to add,
 ---
 > but when there is nothing left to take away." —Antoine de Saint-Exupery
+
+---
 * Determine the features your users need. Understand your users' needs through goal, scenario, and task analysis. Determine a set of features that realizes these objectives.
 * Remove unnecessary elements. Remove elements that aren't likely to be used or have preferable alternatives.
 * Remove unnecessary redundancy（冗余）. There might be several effective ways to perform a task. To achieve simplicity, make the hard decision and choose the best one for your target users instead of providing all of them and making the choice an option. 
@@ -54,6 +60,8 @@
 * 拆分应该拆分的信息；不是所有的东西都要展示在同一个区域，区域与区域之间应该有清晰，明显的边界，区域中应该凸显出对应的核心功能，适当的隐藏和折叠无关重要的功能，互相存在关联的信息在两个信息之间留有胡同的入口
 * 去除能被去除的信息；信息中突出呈现核心信息，若一块信息移除之后不会对整体产生影响，那就移除该模块，可做可不做，选择不做；
 * 一致性、可配置性、通用性有时候会带来不必要的麻烦
+
+---
 * 将元素放在最合适的位置；无关主流程的介绍信息等，与当前操作无关的详细信息，可以用一个新的窗口或者新的页面去呈现；一个元素的呈现要考虑其对应的模块、上下文关系，界面元素布局等。
 * 使用有意义的高级组合；页面中呈现的东西考虑更加适合的方案，高对比度黑色配色背后的意图比黑色的背景更加明显。 
 * 选择合适的控件。
@@ -83,6 +91,8 @@
 * Make tasks discoverable and visible. All tasks, but especially frequent tasks, should be readily discoverable within the user interface. The steps required to perform tasks should be visible and should not rely on memorization.
 * Present tasks in the user's domain. Complex software requires users to map their problems to the technology. Simple software does that mapping for them by presenting what is natural. For example, a red-eye reduction feature maps directly to the problem space and doesn't require users to think in terms of details like hues and gradients.
 * Put domain knowledge into the program. Users shouldn't be required to access external information to use your application successfully. Domain knowledge can range from complex data and algorithms to simply making it clear what type of input is valid.
+
+---
 * Use text that users understand. Well-crafted text is crucial to effective communication with users. Use concepts and terms familiar to your users. Fully explain what is being asked in plain language so that users can make intelligent, informed decisions.
 * Use safe, secure, probable defaults. If a setting has a value that applies to most users in most circumstances, and that setting is both safe and secure, use it as the default value. Make users specify values only when necessary.
 * Use constraints. If there are many ways to perform a task, but only some are correct, constrain the task to those correct ways. Users should not be allowed to make readily preventable mistakes.
