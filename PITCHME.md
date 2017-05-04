@@ -2,6 +2,8 @@
 
 ---
 > 一个伟大的应用应该是简单并且具有力量的，具体包含以下几点：
+
+---
 * 可用性. 产品用来满足目标用户的需求, 使他们能够执行他们无法做到的任务，有效的实现目标；
 * 有效性. 从规模和效率两个层面提高用户的生产效率；
 * 多兼容，多层面. 能够使用户在多种情况下，多种环境中有效的执行任务；
@@ -12,6 +14,7 @@
 
 ---
 > An application is powerful when it has the right combination of these characteristics:
+---
 * Enabling. The application satisfies the needs of its target users, enabling them to perform tasks that they couldn't otherwise do and achieve their goals effectively.
 * Efficient. The application enables users to perform tasks with a level of productivity and scale that wasn't possible before.
 * Versatile. The application enables users to perform a wide range of tasks effectively in a variety of circumstances.
@@ -29,6 +32,7 @@
 
 ---
 > "Perfection is achieved, not when there is nothing more to add,
+---
 > but when there is nothing left to take away." —Antoine de Saint-Exupery
 * Determine the features your users need. Understand your users' needs through goal, scenario, and task analysis. Determine a set of features that realizes these objectives.
 * Remove unnecessary elements. Remove elements that aren't likely to be used or have preferable alternatives.
@@ -62,6 +66,8 @@
 * Separate what should be separated. Not everything can be presented in one place, so always have clear, well-chosen boundaries. Make features that support core scenarios central and obvious, and hide optional functionality or make it peripheral. Separate individual tasks and provide links to related tasks. For example, tasks related to manipulating photos should be clearly separated from tasks related to managing collections of photos, but they should be readily accessible from each other.
 * Eliminate what can be eliminated. Take a printout of your design and highlight the elements used to perform the most important tasks. Even highlight the individual words in the UI text that communicate useful information. Now review what isn't highlighted and consider removing it from the design. If you remove the item, would anything bad happen? If not, remove it!
 * Consistency, configurability, and generalization are often desirable qualities, but they can lead to unnecessary complexity. Review your design for misguided efforts in consistency (such as having redundant text), generalization (such as having any number of time zones when two is sufficient), and configurability (such as options that users aren't likely to change), and eliminate what can be eliminated.
+
+---
 * Put the elements in the right place. Within a window, an element's location should follow its utility. Essential controls, instructions, and explanations should all be in context in logical order. If more options are needed, expose them in context by clicking a chevron or similar mechanism; if more information is needed, display an infotip on mouse hover. Place less important tasks, options, and Help information outside the main flow in a separate window or page. The technique of displaying additional detail as needed is called progressive disclosure.
 * Use meaningful high-level combinations. It is often simpler and more scalable to select and manipulate groups of related elements than individual elements. Examples of high-level combinations include folders, themes, styles, and user groups. Such combinations often map to a user goal or intention that isn't apparent from the individual elements. For example, the intention behind the High Contrast Black color scheme is far more apparent than that of a black window background.
 * Select the right controls. Design elements are embodied by the controls you use to represent them, so selecting the right control is crucial to efficient presentation. For example, the font selection box used by Microsoft Word shows both a preview of the font as well as the most recently used fonts. Similarly, the way Word shows potential spelling and grammar errors in place is much simpler than the dialog box alternative, as shown in the beginning of this article.
@@ -69,7 +75,10 @@
 ---
 
 ### 3、减少用户的努力
+
+---
 > "Simple things should be simple.
+---
 > Complex things should be possible."—Alan Kay
 * Make tasks discoverable and visible. All tasks, but especially frequent tasks, should be readily discoverable within the user interface. The steps required to perform tasks should be visible and should not rely on memorization.
 * Present tasks in the user's domain. Complex software requires users to map their problems to the technology. Simple software does that mapping for them by presenting what is natural. For example, a red-eye reduction feature maps directly to the problem space and doesn't require users to think in terms of details like hues and gradients.
@@ -77,11 +86,13 @@
 * Use text that users understand. Well-crafted text is crucial to effective communication with users. Use concepts and terms familiar to your users. Fully explain what is being asked in plain language so that users can make intelligent, informed decisions.
 * Use safe, secure, probable defaults. If a setting has a value that applies to most users in most circumstances, and that setting is both safe and secure, use it as the default value. Make users specify values only when necessary.
 * Use constraints. If there are many ways to perform a task, but only some are correct, constrain the task to those correct ways. Users should not be allowed to make readily preventable mistakes.
-
+---
 # Powerful and simple
 
 Power is all about enabling your users and making them productive. Simplicity is all about removing the unessential and presenting features the right way. By understanding your target users and achieving the right balance of features and presentation, you can design Windows-based applications that do both.
+---
 # 箴言
-
+---
 * 简约而不简陋。"Everything should be made as simple as possible,but not simpler."—Albert Einstein
+---
 * 用户呈现的越简约，意味着我们付出的努力越多。"I have only made this letter longer because I have not the time to make it shorter."—Blaise Pascal
