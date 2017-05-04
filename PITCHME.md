@@ -1,103 +1,64 @@
-#  progress bar（进度条）
-适用进度条，用户可以跟进相关的任务执行进度，带有百分比的0进度条表示一个确定的进度，没有带百分比的进度条表示不确定的进度
-用户研究表明，用户意识到响应的时长超过一秒，所以当操作获得反馈的时间超过两秒时，应该考虑某种进度的反馈
+# 产品的力量和简约
+> 一个伟大的应用应该是简单并且具有力量的，具体包含以下几点：
+* 可用性. 产品用来满足目标用户的需求, 使他们能够执行他们无法做到的任务，有效的实现目标；
+* 有效性. 从规模和效率两个层面提高用户的生产效率；
+* 多兼容，多层面. 能够使用户在多种情况下，多种环境中有效的执行任务；
+* 直接性. 直接帮助用户实现目标，不绕不偏. 快捷键、键盘访问，诸如此类；
+* 灵活性. 允许用户在使用过程中完整、细粒度的控制；
+* 集成并整体统一. 产品能够无缝衔接于所承载应用的介质，产品与介质融为一体；
+* 先进性.产品拥有非凡的、积极地、先进的竞争对手没有的特性.
+> An application is powerful when it has the right combination of these characteristics:
+* Enabling. The application satisfies the needs of its target users, enabling them to perform tasks that they couldn't otherwise do and achieve their goals effectively.
+* Efficient. The application enables users to perform tasks with a level of productivity and scale that wasn't possible before.
+* Versatile. The application enables users to perform a wide range of tasks effectively in a variety of circumstances.
+* Direct. The application feels like it is directly helping users achieve their goals, instead of getting in the way or requiring unnecessary steps. Features like shortcuts, keyboard access, and macros improve the sense of directness.
+* Flexible. The application allows users complete, fine-grained control over their work.
+* Integrated. The application is well integrated with Microsoft Windows, allowing it to share data with other applications.
+* Advanced. The application has extraordinary, innovative, state-of-the-art features that are not found in competing solutions
+# 设计技巧
+> To obtain simplicity while maintaining power, choose the right set of features, locate the features in the right places, and reduce the effort to use them. This section gives some common techniques to achieve these goals.
+## 1、选择恰当的功能设置
+> "Perfection is achieved, not when there is nothing more to add,
+> but when there is nothing left to take away." —Antoine de Saint-Exupery
+* Determine the features your users need. Understand your users' needs through goal, scenario, and task analysis. Determine a set of features that realizes these objectives.
+* Remove unnecessary elements. Remove elements that aren't likely to be used or have preferable alternatives.
+* Remove unnecessary redundancy（冗余）. There might be several effective ways to perform a task. To achieve simplicity, make the hard decision and choose the best one for your target users instead of providing all of them and making the choice an option. 
+* Make it "just work" automatically. The element is necessary, but any user interaction to get it to work is not because there is an acceptable default behavior or configuration. To achieve simplicity, make it work automatically and either hide it from the user completely or reduce its exposure significantly.
+## 2、通过以下的手段去呈现力量，保持简单
+>"The ability to simplify means to eliminate the unnecessary
+> so that the necessary may speak." —Hans Hofmann
 
+### 实现产品相对于用户简单使用，可以通过以下手段：
+* 集合应该集合的信息； 将支撑同一个任务的功能结合在一起，使用户能够流畅线性的操作，拆解复杂的逻辑，将复杂的逻辑拆成一个个的小流程和小逻辑，一个地方可能会有多种页面呈现形式，例如：引导性内容 
+* 拆分应该拆分的信息；不是所有的东西都要展示在同一个区域，区域与区域之间应该有清晰，明显的边界，区域中应该凸显出对应的核心功能，适当的隐藏和折叠无关重要的功能，互相存在关联的信息在两个信息之间留有胡同的入口
+* 去除能被去除的信息；信息中突出呈现核心信息，若一块信息移除之后不会对整体产生影响，那就移除该模块，可做可不做，选择不做；
+* 一致性、可配置性、通用性有时候会带来不必要的麻烦
+* 将元素放在最合适的位置；无关主流程的介绍信息等，与当前操作无关的详细信息，可以用一个新的窗口或者新的页面去呈现；一个元素的呈现要考虑其对应的模块、上下文关系，界面元素布局等。
+* 使用有意义的高级组合；页面中呈现的东西考虑更加适合的方案，高对比度黑色配色背后的意图比黑色的背景更加明显。 
+* 选择合适的控件。
+### Use the following design techniques to preserve power, while achieving simplicity through the perception of reduction or removal:
+* Combine what should be combined. Put the essential features that support a task together so that a task can be performed in one place. The task's steps should have a unified, streamlined flow. Break down complex tasks into a set of easy, clear steps, so that "one" place might consist of several UI surfaces, such as a wizard.
+* Separate what should be separated. Not everything can be presented in one place, so always have clear, well-chosen boundaries. Make features that support core scenarios central and obvious, and hide optional functionality or make it peripheral. Separate individual tasks and provide links to related tasks. For example, tasks related to manipulating photos should be clearly separated from tasks related to managing collections of photos, but they should be readily accessible from each other.
+* Eliminate what can be eliminated. Take a printout of your design and highlight the elements used to perform the most important tasks. Even highlight the individual words in the UI text that communicate useful information. Now review what isn't highlighted and consider removing it from the design. If you remove the item, would anything bad happen? If not, remove it!
+* Consistency, configurability, and generalization are often desirable qualities, but they can lead to unnecessary complexity. Review your design for misguided efforts in consistency (such as having redundant text), generalization (such as having any number of time zones when two is sufficient), and configurability (such as options that users aren't likely to change), and eliminate what can be eliminated.
+* Put the elements in the right place. Within a window, an element's location should follow its utility. Essential controls, instructions, and explanations should all be in context in logical order. If more options are needed, expose them in context by clicking a chevron or similar mechanism; if more information is needed, display an infotip on mouse hover. Place less important tasks, options, and Help information outside the main flow in a separate window or page. The technique of displaying additional detail as needed is called progressive disclosure.
+* Use meaningful high-level combinations. It is often simpler and more scalable to select and manipulate groups of related elements than individual elements. Examples of high-level combinations include folders, themes, styles, and user groups. Such combinations often map to a user goal or intention that isn't apparent from the individual elements. For example, the intention behind the High Contrast Black color scheme is far more apparent than that of a black window background.
+* Select the right controls. Design elements are embodied by the controls you use to represent them, so selecting the right control is crucial to efficient presentation. For example, the font selection box used by Microsoft Word shows both a preview of the font as well as the most recently used fonts. Similarly, the way Word shows potential spelling and grammar errors in place is much simpler than the dialog box alternative, as shown in the beginning of this article.
 
-![图片标题](https://i-msdn.sec.s-msft.com/dynimg/IC725875.png)
+### 3、减少用户的努力
+> "Simple things should be simple.
+> Complex things should be possible."—Alan Kay
+* Make tasks discoverable and visible. All tasks, but especially frequent tasks, should be readily discoverable within the user interface. The steps required to perform tasks should be visible and should not rely on memorization.
+* Present tasks in the user's domain. Complex software requires users to map their problems to the technology. Simple software does that mapping for them by presenting what is natural. For example, a red-eye reduction feature maps directly to the problem space and doesn't require users to think in terms of details like hues and gradients.
+* Put domain knowledge into the program. Users shouldn't be required to access external information to use your application successfully. Domain knowledge can range from complex data and algorithms to simply making it clear what type of input is valid.
+* Use text that users understand. Well-crafted text is crucial to effective communication with users. Use concepts and terms familiar to your users. Fully explain what is being asked in plain language so that users can make intelligent, informed decisions.
+* Use safe, secure, probable defaults. If a setting has a value that applies to most users in most circumstances, and that setting is both safe and secure, use it as the default value. Make users specify values only when necessary.
+* Use constraints. If there are many ways to perform a task, but only some are correct, constrain the task to those correct ways. Users should not be allowed to make readily preventable mistakes.
 
-## 使用进度条的场景
+# Powerful and simple
 
- - 操作是否在约五秒钟内完成？如果是这样，使用活动指标，因为在这么短的时间内显示进度条将会分散注意力。如果操作通常需要五秒钟或更短时间，但有时需要更多，请从繁忙的指针开始，并在五秒钟后转换为进度条。
- - 用于等待用户完成任务的不确定进度条？如果是这样，不要使用进度条。
- - 进度栏用于计算机进度，而不是用户进度。
- - 一个不确定的进度条与动画结合在一起吗？如果是，请改用动画。不确定的进度条实际上是一个通用的动画，并且不为动画添加任何值。
- - 操作是否非常漫长（超过两分钟）后台任务，用户对完成比对进度更感兴趣？如果是，请改用通知。在这种情况下，用户在此期间执行其他任务，并不监视进度。使用通知允许用户执行其他任务而不中断。这种冗长操作的示例包括打印，备份，系统扫描和批量数据传输或转换。
- - 操作完成后，用户能否重播结果？如果是，请改用滑块。这种操作的示例包括视频和音频记录和回放。
- 
-## 设计理念
-在一个长操作中，用户需要明确的问题有以下几个方面：
- - 长操作已经开始
- - 长操作正在取得进展，并且将最终完成（没有被锁死）
- - 已经完成的操作的大致百分比
- - 如果不值得等待，用户可以取消该操作
- - 在等待完成的同时，是否应该继续等待，或者做点别的
+Power is all about enabling your users and making them productive. Simplicity is all about removing the unessential and presenting features the right way. By understanding your target users and achieving the right balance of features and presentation, you can design Windows-based applications that do both.
+# 箴言
 
-
-对于需要有限时间量的操作，即使无法准确预测该时间量，请使用确定的进度条。不确定的进度条显示正在取得进展，但不提供其他信息。不要仅仅根据可能的精度不足来选择一个不确定的进度条。
-
-
-总之一句话：确保您为长时间的操作提供进度反馈，并且上述信息被明确传达。尽可能使用确定的进度条。
-
-## 使用模式
-
-### Determinate progress bars
-
- - Modal determinate progress bars
- 
-   因为这种反馈是模态的，所以用户无法在窗口中执行其他任务（或者如果在模态对话框中显示，则为其父任务），直到操作完成。
- 
-![图片标题](https://i-msdn.sec.s-msft.com/dynimg/IC725877.png)
-
- - Modal determinate progress bars with a Cancel or Stop button
- 
-   Allow users to halt the operation, perhaps because the operation is taking too long or isn't worth the wait.
-
-![图片标题](https://i-msdn.sec.s-msft.com/dynimg/IC725878.png)
-
- - Modal determinate progress bars with a Cancel or Stop button and animation
- 
-   Allow users to halt the operation, and include an animation to help users visualize the effect of an operation.
-
-![图片标题](https://i-msdn.sec.s-msft.com/dynimg/IC725879.png)
-  
-
- - Modal determinate double progress bars
-
-![图片标题](https://i-msdn.sec.s-msft.com/dynimg/IC725880.png)
-
-  In this example, the first progress bar shows the progress of the current step and the second progress bar shows the overall progress.
-
- - Modeless determinate progress bars
- 
-  Unlike with modal progress bars, users can perform other tasks while the operation is in progress. These progress bars can be displayed in context or on a status bar.
-
-![图片标题](https://i-msdn.sec.s-msft.com/dynimg/IC725881.png)
-
-  In this example, Windows Internet ExplorerWindows Internet Explorer displays its progress for loading a Web page on the status bar. Users can perform other tasks while the page is loading.
-
-### Indeterminate progress bars
-
- - Modal indeterminate progress bars
-
-  Used only for operations whose overall progress cannot be determined, so there is no notion of completeness. Determinate progress bars are preferable because they indicate the approximate percentage of the operation that has been completed, and help users determine if the operation is worth continuing to wait. They are also less visually distracting.
-
-![](https://i-msdn.sec.s-msft.com/dynimg/IC725882.png)
-
- - Modeless indeterminate progress bars
- 
-  Unlike modal progress bars, users can perform other tasks while the processing is in progress. These progress bars can be displayed in context or on a status bar.
- 
-![图片标题](https://i-msdn.sec.s-msft.com/dynimg/IC725883.png)
-
-## meters
-
-表示一个百分比，而不是一个相对进度
-
-This pattern isn't a progress bar, but it is implemented using the progress bar control. Meters have a distinct look to differentiate them from true progress bars.
-
-![](https://i-msdn.sec.s-msft.com/dynimg/IC725884.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 简约而不简陋。"Everything should be made as simple as possible,but not simpler."—Albert Einstein
+* 用户呈现的越简约，意味着我们付出的努力越多。"I have only made this letter longer because I have not the time to make it shorter."—Blaise Pascal
