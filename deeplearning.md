@@ -1,7 +1,11 @@
+# 整理产品相关文章及学习资料
+路漫漫其修远兮，吾将上下而求索。
 
 ## 深度文章博客
 * [朱啸虎推荐超深度长文：地位即服务——重新审视社交网络](https://mp.weixin.qq.com/s/0EvRGm8bFbKwstma3oUJhg)
    * [作者博客](https://www.eugenewei.com/)
+* [关于SaaS产品定价等策略的方法可以参考学习](https://stripe.com/atlas/guides)
+* [2018teambition 设计方法年鉴，让我想起我的入门师傅指导的方法](https://stripe.com/atlas/guides)
 
 ## 关于产品设计
 
