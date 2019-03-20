@@ -8,9 +8,12 @@
 * [2018teambition 设计方法年鉴，让我想起我的入门师傅指导的方法](https://stripe.com/atlas/guides)
 * [ jwhung 设计中的设计博客：关于一些sketch的插件和使用技巧](https://zhuanlan.zhihu.com/p/24673492)
 
+
 ## 关于产品设计
 
 * [扩展RBAC用户角色权限设计](http://www.cnblogs.com/zwq194/archive/2011/03/07/1974821.html)
+
+* [RBAC（Role-based access control，基于角色的权限控制）是 to B 产品里常见的权限系统模型，逻辑比较复杂。而微软 Azure 最近公开了他们关于 RBAC 的资料文档，有概括、详细说明和案例，可以帮助你快速上手。](https://docs.microsoft.com/en-us/azure/role-based-access-control/)
 
 * [如何创建一个购物用户画像](http://fabrikbrands.com/how-to-create-a-buyer-persona/)
 
