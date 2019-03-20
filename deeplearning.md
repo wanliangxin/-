@@ -7,6 +7,7 @@
 * [关于SaaS产品定价等策略的方法可以参考学习](https://stripe.com/atlas/guides)
 * [2018teambition 设计方法年鉴，让我想起我的入门师傅指导的方法](https://stripe.com/atlas/guides)
 * [ jwhung 设计中的设计博客：关于一些sketch的插件和使用技巧](https://zhuanlan.zhihu.com/p/24673492)
+* [取经号](https://qujinghao.com/)
 
 
 ## 关于产品设计
