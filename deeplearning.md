@@ -8,6 +8,7 @@
 * [2018teambition 设计方法年鉴，让我想起我的入门师傅指导的方法](https://stripe.com/atlas/guides)
 * [ jwhung 设计中的设计博客：关于一些sketch的插件和使用技巧](https://zhuanlan.zhihu.com/p/24673492)
 * [取经号:取经路上，有你有我](https://qujinghao.com/)
+* [知乎专栏：设计研习社 ](https://zhuanlan.zhihu.com/c_181570543)
 
 
 ## 关于产品设计
@@ -23,6 +24,7 @@
 * [美团点评沈国阳：我们在谈用户画像的时候到底在谈什么？](https://mp.weixin.qq.com/s/E9vABApEg6AGafXfXdCqvA)
 
 * [Medium年度最佳设计文章](https://zhuanlan.zhihu.com/p/24673492)
+* [提高团队效率！Spotify 总监如何从零开始让设计标准化？](https://www.uisdc.com/spotify-design-standardization)
 
 
 ## 关于产品管理
@@ -35,6 +37,7 @@
 
 * [学会提问](http://www.catb.org/esr/faqs/smart-questions.html?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=ios)
 
+* [版本控制工具 Abstract 是如何提升设计团队协作效率的？](https://zhuanlan.zhihu.com/p/33990415)
 
 
 
