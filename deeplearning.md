@@ -73,7 +73,9 @@
 * [四种类型的数据分析模式](http://www.infoq.com/cn/news/2017/07/Four-data-analysis-model-present)
 
 
-## 书单
+## 研发相关
 
 * [总有你要的编程书单](http://blog.didiaoyuan.com/2017/04/18/%E6%80%BB%E6%9C%89%E4%BD%A0%E8%A6%81%E7%9A%84%E7%BC%96%E7%A8%8B%E4%B9%A6%E5%8D%95%EF%BC%88GitHub-%EF%BC%89/)
+* [ Scaling webapps for newbs & non-techies ](https://arcentry.com/blog/scaling-webapps-for-newbs-and-non-techies/)
+* [ 计算机科学自学指南 ](http://blog.jobbole.com/114573/)
 
